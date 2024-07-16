@@ -22,7 +22,7 @@
   margin-right: 4px;
 }
 
-.address{
+.address {
   text-decoration: none;
 }
 
@@ -36,7 +36,7 @@
 }
 
 header {
-  padding: 92px 49px 92px 51px;
+  padding: 92px 48px 92px 52px;
   display: flex;
   justify-content: space-between;
 }
@@ -129,7 +129,7 @@ header {
 }
 
 .lots {
-  margin: 180px 50px 0 50px;
+  margin-top: 180px;
 }
 
 .lots-heading {
@@ -199,13 +199,17 @@ header {
   text-underline-offset: 4px;
 }
 
+.about-logo-container {
+  min-width: 430px;
+}
+
 .about-logo {
   background-color: black;
   width: 240px;
   height: 240px;
   padding: 63px 46px;
   border-radius: 200px;
-  margin-left: 95px;
+  margin: auto;
 }
 
 .about-logo-image {
@@ -216,38 +220,29 @@ header {
 
 .about {
   margin-top: 180px;
-  width: 1340px;
-  height: 487px;
-  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-content {
+  padding-left: 25px;
 }
 
 .about-title {
   text-transform: uppercase;
   font-size: 40px;
-  margin: 100px 594px 0px 0px;
-}
-
-.about-space-between {
-  display: flex;
-  justify-content: space-between;
+  margin: 100px 0;
 }
 
 .about-text {
-  display: flex;
-  justify-content: right;
   font-size: 20px;
-  margin-left: 456px;
-  margin-top: 8px;
-}
-
-.about-text:last-child {
   margin-top: 25px;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  margin: 180px 50px 90px 50px;
+  padding: 180px 50px 90px;
 }
 
 .footer-address {
@@ -289,4 +284,8 @@ footer {
 
 .footer-menu {
   margin-top: 2px;
+}
+
+.container {
+  padding: 0px 50px;
 }
