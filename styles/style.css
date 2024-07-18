@@ -47,6 +47,7 @@
   z-index: 1;
   position: relative;
   padding-top: 165px;
+  background-position-y: -17px;
 }
 
 .overlay {
